@@ -75,14 +75,14 @@ function BlogCard({ blog, onDeleteBlog, onUpdateBlog }) {
       ) : (
         <>
           <h4>{title}</h4>
-          <p>Description: {description}</p>
           <img src={image} alt={title} />
-            <p>Written By {author}</p>
+          <p>{description}</p>
+            <p className='written-by'>Written by: {author}</p>
             <div className='action-buttons'>
           <button className="primary" onClick={handleEditClick}>
             Edit Blog
           </button>
-          <button onClick={handleDeleteClick}>Delete</button>
+          <button onClick={handleDeleteClick}>x</button>
             </div>
         </>
       )}
