@@ -4,7 +4,7 @@
 https://blog-app-nu-one.vercel.app/
 
 ### Backend live link
-"https://blogify-s9ab.onrender.com"
+https://blogify-s9ab.onrender.com
 
 
 ### Description
