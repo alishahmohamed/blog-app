@@ -133,7 +133,7 @@ input:focus {
 	border-bottom: 2px solid var(--green);
 }
 
-.cards {
+.cards {  
 	list-style: none;
 }
 
