@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import NewBlogForm from "./NewBlogForm";
 import BlogList from "./BlogList";
 import Search from "./Search";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 
 function BlogPage() {
   const [blogs, setBlogs] = useState([]);

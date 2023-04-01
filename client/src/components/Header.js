@@ -1,14 +1,12 @@
-import {Link} from 'react-router-dom'
 function Header() {
     return (
       <header>
         <h1>
-          EAT SLEEP CODE REPEAT
+          Rails Blog
         </h1>
-        <Link to="/add-blog">
+        <a href="#new-blog-form">
           <button className="header-blog">Add Blog</button>
-        </Link>
-    
+        </a>   
       </header>
     );
   }

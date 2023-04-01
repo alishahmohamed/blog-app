@@ -5,7 +5,7 @@ function Search({ searchTerm, onSearchChange }) {
         <input
           type="text"
           id="search"
-          placeholder="Type a title to search..."
+          placeholder="Not seeing a blog? Search here"
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
         />
