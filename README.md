@@ -1,5 +1,12 @@
 # Blog App
 
+### Frontend live link
+https://blog-app-nu-one.vercel.app/
+
+### Backend live link
+"https://blogify-s9ab.onrender.com"
+
+
 ### Description
 
 This is a simple blog application built with Ruby on Rails and React JS.
